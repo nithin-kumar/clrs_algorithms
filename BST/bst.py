@@ -139,7 +139,7 @@ class BST:
 			parent=y
 			if y.key>x.key:
 				y=y.left
-			else:
+			else :
 				y=y.right
 		return parent.key
 	def diameter(self,x):
